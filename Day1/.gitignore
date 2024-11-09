@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Output directories (build, dist, out)
+dist/
+build/
+out/
+
+# Cache files
+.cache/
+.webpack/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Sublime Text files
+*.sublime-workspace
+*.sublime-project
+
+# VS Code files
+.vscode/
+
+# npm/yarn debug logs
+npm-debug.log
+yarn-error.log
+
+# Tarball files
+*.tgz
+
+# Coverage reports
+coverage/
