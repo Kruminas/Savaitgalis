@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 1</title>
+  </head>
+  <style>
+    .Goodmorning {
+      color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      position: relative;
+      top: 250px
+    }
+ 
+    .Background {
+        background-color: black;
+    }
+    .Image1, .Image2, .Image3, .Image4 {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+    .Image2, .Image4 {
+    right: 0;
+    transform: scaleX(-1);
+    }
+    .Image3, .Image4 {
+        bottom: 0;
+    }
+    .Keyboard, .Keyboard1, .Keyboard2, .Keyboard3, .Keyboard4, .Keyboard5 {
+        color: red;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 500px;
+    }
+    .Keyboard1 {
+        top: 25px;
+    }
+    .Keyboard2 {
+        top: 50px;
+    }
+    .Keyboard3 {
+        top: 75px;
+        right:  53px;
+    }
+    .Keyboard4 {
+        top: 90px;
+    }
+    .Keyboard5 {
+        top: 115px;
+        left: 51.9px;
+    }
+  </style>
+  <body class="Background">
+    <img class="Image1" src="Images/cat.jpg">
+    <img class="Image2" src="Images/cat.jpg">
+    <img class="Image3" src="Images/cat.jpg">
+    <img class="Image4" src="Images/cat.jpg">
+    <div class="Goodmorning">
+      <img style="width: 1050px; position: absolute; bottom: 300px;" src="Images/monitor1.png">
+      <img style="width: 450px; position: absolute; bottom: 197.5px;" src="Images/monitorLegs.png">
+      <img style="width: 195px; position: absolute; bottom: 400px; left: 470px;" src="Images/love.png">
+      <img style="width: 250px; position: absolute; bottom: 475px; left: 145px;" src="Images/plant2.png">
+      <img style="width: 250px; position: absolute; bottom: 475px; right: 145px; transform: scaleX(-1);" src="Images/plant2.png">
+      <img style="width: 250px; position: absolute; bottom: 150px; right: 200px;" src="Images/mouse.png">
+      <div class="Keyboard">
+        <div>ESC &nbsp;&nbsp;&nbsp; F1 &nbsp; F2 &nbsp; F3 &nbsp; F4 &nbsp;&nbsp;&nbsp; F5 &nbsp; F6&nbsp; F7 &nbsp; F8 &nbsp;&nbsp;&nbsp; F9 &nbsp; F10 &nbsp; F11 &nbsp; F12
+        &nbsp;&nbsp;&nbsp; PRINT &nbsp; SCROLL &nbsp; PAUSE &nbsp; HyperX &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </div>
+        <div class="Keyboard1">
+        `~ &nbsp; 1! &nbsp; 2@ &nbsp; 3# &nbsp; 4$ &nbsp; 5% &nbsp; 6^ &nbsp; 7& &nbsp; 8* &nbsp; 9( &nbsp; 0) &nbsp; -_ &nbsp; =+ &nbsp; DELETE &nbsp; &nbsp; INS &nbsp; HOME &nbsp; PGUP &nbsp; &nbsp;  NUMBLK &nbsp; / &nbsp; * &nbsp; -
+        </div>
+        <div class="Keyboard2">
+            TAB &nbsp; Q &nbsp; W &nbsp; E &nbsp; R &nbsp; T &nbsp; Y &nbsp; U &nbsp; I &nbsp; O &nbsp; P &nbsp; [{ &nbsp; ]} &nbsp; \| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DEL &nbsp; END &nbsp; PGDN &nbsp; &nbsp; &nbsp; &nbsp; 7 &nbsp; 8 &nbsp; 9 &nbsp; 
+        </div>
+        <div class="Keyboard3">
+            CAPS &nbsp; A &nbsp; S &nbsp; D &nbsp; F &nbsp; G &nbsp; H &nbsp; J &nbsp; K &nbsp; L &nbsp; ;: &nbsp; '" &nbsp; ENTER &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4 &nbsp; 5 &nbsp; 6 &nbsp; +
+        </div>
+        <div class="Keyboard4">
+            SHIFT &nbsp; Z &nbsp; X &nbsp; C &nbsp; V &nbsp; B &nbsp; N &nbsp; M &nbsp; ,< &nbsp; .> &nbsp; /? &nbsp; SHIFT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⬆️&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  1 &nbsp; 2 &nbsp; 3
+        </div>
+        <div class="Keyboard5">
+            CTRL &nbsp; 🪟 &nbsp; ALT &nbsp; S &nbsp;&nbsp; P &nbsp;&nbsp; A &nbsp;&nbsp; C &nbsp;&nbsp; E &nbsp;&nbsp; ALT &nbsp; FN &nbsp; 🏬 &nbsp; CTRL &nbsp; &nbsp; ⬅️ &nbsp; ⬇️ &nbsp; ➡️ &nbsp; &nbsp; 0 &nbsp; . &nbsp; ENTER
+        </div>
+    </div>
+    </div>
+
+  </body>
+</html>
