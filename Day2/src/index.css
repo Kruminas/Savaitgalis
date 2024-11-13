@@ -1,0 +1,72 @@
+body {
+  background-image: url("./Image/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+  margin: 0;
+  position: relative;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+button {
+  color: black;
+  border: none;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 25px
+}
+.buttonas {
+  border: none;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 85px
+}
+.nuotrauka {
+  display: flex;
+  position: absolute;
+  right: 80px;
+  top: 300px
+}
+.nuotrauka1 {
+height: 1083px;
+}
+.nuotrauka2 {
+  display: flex;
+  position: absolute;
+  right: 450px;
+  top: 0px;
+  height: 500px;
+  width: 1100px;
+}
+.slider {
+  top: 550px;
+  left: 700px;
+  position: absolute;
+  width: 500px;
+}
+video {
+position: absolute;
+display: block;
+left: 24.5%;
+transform: translate(-50%, -50%);
+top: 8.2%;
+perspective: 1000px;
+transform: rotateY(30deg) rotateX(-2deg);
+width: 50%;
+height: 48%;
+object-fit: cover;
+border: 5px solid black
+}
